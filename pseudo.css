@@ -1,0 +1,47 @@
+div div:first-child{
+    color: blue;
+    font-weight: bold;
+}
+
+div>div:nth-child(2n){
+    background-color: red;
+    color: white;
+}
+
+div>div:nth-child(2n+3){
+    color: red;
+}
+
+div div a:hover {
+    background-color: black;
+    color: white;
+}
+
+div div input:disabled {
+    background-color: blue;
+    color: white;
+}
+
+div div input:checked {
+    box-shadow: 10px 10px 45px 0px rgba(0,0,0,0.75);
+}
+
+div:nth-child(4) div{
+    background-color: white;
+    color: black;
+    font-weight: normal;
+}
+
+div div div div:only-child{
+    color: green;
+}
+
+div div div:nth-child(3){
+    color: red;
+}
+
+div div div:nth-last-child(2){
+    color: blue;
+}
+
+

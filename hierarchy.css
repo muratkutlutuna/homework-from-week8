@@ -1,0 +1,75 @@
+.firstClass {
+    background-color: black;
+    color: white;
+}
+
+div:nth-child(2)>p{
+    color:skyblue;
+}
+
+div>p>span>span { 
+    border: 1px solid black;
+}
+
+div:nth-child(2) > p > span{
+    color:black;
+}
+
+div:nth-child(3) > p:first-child{
+    color:skyblue;
+}
+
+div #middle{
+    border: 2px solid red;
+}
+
+div #middle span{
+    font-weight: bold;
+    background-color: red;
+    color: white;
+}
+
+div:nth-child(3) p:last-child {
+    color: darkred;
+}
+
+#someDiv {
+    color: skyblue;
+}
+
+#someDiv > span{
+    color:black;
+}
+
+#someDiv > p:last-child{
+    color: darkred;
+}
+
+#someDiv > p > span {
+    background-color: black;
+    font-size: 2em;
+    color:white;
+}
+
+div ul .someL ul {
+    font-size: 2em;
+}
+
+div ul .someL ul li ul .someL{
+    font-style: italic;
+    color: red;
+}
+
+div ul .someL ul li ul li:nth-child(2){
+    color: blue;
+}
+div ul .someL ul li ul li:last-child{
+    color: green;
+}
+
+div ul li span {
+    color: orange;
+}
+#last .lastClass ~ p{
+    color: skyblue;
+}
